@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.titulo{
+    font-size: xx-large;
+}
+
+.container{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+textarea{
+    height: 110px;
+    width: 88%;
+    border-radius: 5px;
+}
+
+.boton{
+    padding: 8px;
+    border-radius: 5px;
+    border: 0;
+    background-color: antiquewhite;
+}
+
+.boton:hover{
+    background-color: bisque;
+}
